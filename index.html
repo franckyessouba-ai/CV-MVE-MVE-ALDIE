@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - MVE MVE ALDIE</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Container Layout */
+    .container {
+      display: flex;
+      min-height: 100vh;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      background: #1e2a38;
+      color: white;
+      width: 300px;
+      padding: 2rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .profile {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      border: 3px solid #4a90e2;
+    }
+
+    .sidebar h1 {
+      font-size: 1.6rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .sidebar p {
+      font-size: 0.9rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .sidebar h2 {
+      font-size: 1.2rem;
+      margin: 1rem 0;
+      border-bottom: 2px solid #4a90e2;
+      padding-bottom: 0.3rem;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .sidebar ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #4a90e2;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #357ab7;
+    }
+
+    /* Main content */
+    .content {
+      flex: 1;
+      padding: 2rem;
+    }
+
+    .content h2 {
+      color: #1e2a38;
+      border-left: 4px solid #4a90e2;
+      padding-left: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .content section {
+      margin-bottom: 1.5rem;
+    }
+
+    .content ul {
+      margin-left: 1.5rem;
+      list-style-type: square;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .sidebar {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="profile">
+        <img src="photo.jpg" alt="Photo de profil" class="profile-img">
+        <h1>✨ MVE MVE ALDIE ✨</h1>
+        <p>📍 PK10, Libreville – Gabon</p>
+        <p>📞 062158339</p>
+        <p>📧 kimmve0@gmail.com</p>
+        <p>📅 Née le 16 janvier 2003</p>
+      </div>
+
+      <div class="section">
+        <h2>🌍 Langues</h2>
+        <ul>
+          <li>🇫🇷 Français (courant)</li>
+          <li>🇬🇧 Anglais (intermédiaire)</li>
+          <li>🇪🇸 Espagnol (notions)</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>🌟 Qualités</h2>
+        <ul>
+          <li>💡 Sérieuse et motivée</li>
+          <li>🚀 Sens de l’initiative</li>
+          <li>🔄 Bonne capacité d’adaptation</li>
+          <li>🤝 Esprit d’équipe</li>
+        </ul>
+      </div>
+
+      <footer>
+        <a href="cv.pdf" download class="btn">📥 Télécharger le CV</a>
+      </footer>
+    </aside>
+
+    <!-- Main content -->
+    <main class="content">
+      <section>
+        <h2>🎯 Objectif Professionnel</h2>
+        <p>
+          Obtenir un emploi dans le domaine de l’informatique afin de mettre en pratique mes compétences techniques, 
+          évoluer professionnellement et contribuer au développement des projets informatiques.
+        </p>
+      </section>
+
+      <section>
+        <h2>🎓 Formation</h2>
+        <ul>
+          <li>📘 <strong>2025 :</strong> Licence Professionnelle en Informatique (en cours d’obtention)</li>
+          <li>📘 <strong>2024 :</strong> DUT en Informatique – École Supérieure de Gestion et d’Informatique</li>
+          <li>📗 <strong>2022 :</strong> Baccalauréat – Lycée Baoumar, Libreville</li>
+          <li>📗 <strong>2019 :</strong> BEPC – CES Léon Mba 2, Libreville</li>
+          <li>📙 <strong>2015 :</strong> CEP – Complexe Scolaire Claire Étoile du Matin</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>💼 Expérience</h2>
+        <p><strong>Stagiaire Informatique</strong> – D1-E TECH</p>
+        <ul>
+          <li>🖥️ Installation de pilotes</li>
+          <li>🔧 Mise à jour de logiciels</li>
+          <li>🌐 Initiation au HTML & CSS</li>
+          <li>📝 Conception de CV et mise en page</li>
+          <li>⚙️ Suivi des installations de base</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>🛠️ Compétences Techniques</h2>
+        <ul>
+          <li>💻 Langages : HTML, CSS</li>
+          <li>📊 Bureautique : Word, Excel, PowerPoint</li>
+          <li>🔌 Installation logicielle et maintenance</li>
+          <li>🌐 Connaissances de base en réseaux</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
